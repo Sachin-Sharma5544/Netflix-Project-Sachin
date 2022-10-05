@@ -111,3 +111,46 @@ div.info-message-one h1 {
     text-decoration: none;
     padding: 9px 30px 14px 30px;
 }
+
+.section-boundary {
+    height: 10px;
+    background-color:rgba(0,0,0,0.8);
+}
+
+/* Second Section Styling */
+
+.grid-wrapper {
+    display: grid;
+    grid-template-areas: "columnone columntwo";
+    grid-template-columns: repeat(2, 1fr);
+    
+    background-color: black;
+    padding-bottom: 50px ;
+}
+
+.grid-wrapper .column-one {
+    grid-area: columnone;
+}
+
+.text-wrapper {
+    width: 85%;
+    padding-top: 150px;
+    padding-left: 80px;
+    
+}
+
+.column-one h1, .column-one h4, .column-two h1, .column-two h4{
+    color: white;
+}
+
+
+.grid-wrapper .column-one h1 {
+    color: white;
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+.grid-wrapper .column-two {
+    grid-area: columntwo;
+    
+}
