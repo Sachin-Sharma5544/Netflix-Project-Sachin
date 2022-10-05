@@ -35,7 +35,7 @@ svg.netflix-logo {
     width: 140px;
 } 
 
-.lang-btn-brdr, .lang-btn-brdr:hover  {
+.my-lang-btn, .my-lang-btn:hover  {
     border: 1px solid white;
     border-radius: 3px;
     background-color: black;
@@ -197,6 +197,89 @@ section {
     align-items: center;
     padding: 15px 30px;
 }
+
+
+
+/* Footer Styling */
+
+footer {
+    background-color: black;
+}
+
+.footer-grid-parent {
+    display: grid;
+    grid-template-areas: "footercontainerone footercontainerone footercontainerone footercontainerone"
+    "footercontainertwo footercontainerthree footercontainerfour footercontainerfive"
+    "footercontainersix footercontainersix footercontainersix footercontainersix"
+    "footercontainerseven footercontainerseven footercontainerseven footercontainerseven";
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 0px;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 80px; 
+
+}
+
+.footer-grid-parent div .links-container p a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 13px;
+
+}
+
+.footer-container-one {
+    grid-area: footercontainerone;
+    color: #737373;
+}
+
+.footer-container-one a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer-container-one a:hover{
+    text-decoration: underline;
+    color: #737373;
+}
+
+.footer-container-two {
+    grid-area: footercontainertwo;
+}
+
+.footer-container-three {
+    grid-area: footercontainerthree;
+}
+
+.footer-container-four {
+    grid-area: footercontainerfour;
+}
+
+.footer-container-five {
+    grid-area: footercontainerfive;
+}
+
+.footer-container-six {
+    grid-area: footercontainersix;
+}
+
+.footer-container-six .my-lang-btn, .lang-btn-brdr:hover  {
+    border: 1px solid #737373;;
+    border-radius: 3px;
+    background-color: black;
+    margin-right: 30px;
+    color: #737373;
+}
+
+.footer-container-seven {
+    grid-area: footercontainerseven;
+    color: #737373;
+}
+
+.footer-container-seven p{
+    
+    font-size: 13px;
+}
+
 
 
 
