@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: black;
+    background-image: url("./images/first-section-background-image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.top-container {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.main-navbar {
+    background-color: rgba(0,0,0,0.09);
+}
+
+.nav-elements-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+
+svg.netflix-logo g path {
+    fill: #e50914;
+    
+} 
+
+svg.netflix-logo {
+    height: 40px;
+    width: 140px;
+} 
+
+.lang-btn-brdr, .lang-btn-brdr:hover  {
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: black;
+    margin-right: 30px;
+}
+
+.btn-sign-in {
+    display: inline-block;
+    margin: 5px 0;
+    background-color: #e50914;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #e50914;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-sign-in:hover {
+    cursor: pointer;
+    color: white;
+}
+
+div.info-message-one {
+    color: white;
+    margin: 150px auto;
+    margin-bottom: 0px;
+    width: 40%;
+    font-size: 3.0;
+    text-align: center;
+
+    background-color: rgba(255,255,255, 0.03);
+}
+
+div.info-message-one h1 {
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+
+.info-message-two {
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.03);
+    padding-bottom: 5px;
+}
+
+.info-message-two h5 {
+    color: white;
+}
+
+.input-value-wrapper {
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom:143px;
+}
+
+.input-value-wrapper span {
+    margin: 0;
+    padding: 0;
+}
+
+.input-email input {
+    width: 55%;
+    padding: 12px 10px;
+    padding-top: 16px;
+}
+
+.get-started-btn a{
+    color: white;
+    background-color: #e50914;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 9px 30px 14px 30px;
+}
