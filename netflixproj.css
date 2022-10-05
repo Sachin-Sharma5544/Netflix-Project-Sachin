@@ -119,12 +119,14 @@ div.info-message-one h1 {
 
 /* Second Section Styling */
 
+section {
+    background-color: black;
+}
+
 .grid-wrapper {
     display: grid;
     grid-template-areas: "columnone columntwo";
     grid-template-columns: repeat(2, 1fr);
-    
-    background-color: black;
     padding-bottom: 50px ;
 }
 
@@ -154,3 +156,49 @@ div.info-message-one h1 {
     grid-area: columntwo;
     
 }
+
+/* Sixth Section Styling */
+
+.sixth-section-header h1{
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 48px;
+}
+
+.question-wrapper {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.question-wrapper, .question-wrapper p {
+    margin: 0;
+}
+
+.question {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.question-btn, .answer-to-question div, .question-btn:hover{
+    width: 100%;
+    background-color: #303030;
+    color: white;
+    border-radius: 0px;
+    border: 1px solid black;
+    font-size: 32px;
+
+}
+
+.question p a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+
+
+
+
