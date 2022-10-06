@@ -7,7 +7,7 @@ body {
 .top {
     background-color: black;
     background-image: url("./images/first-section-background-image.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
